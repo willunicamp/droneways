@@ -15,7 +15,7 @@ def main():
                        "1. Execute fishbone heuristics \n"+
                        "2. Execute spiderweb heuristics\n"+
                        "3. Calculate properties\n"
-                       "5. Compare heuristics and generate plot\n"))
+                       "4. Compare heuristics and generate plot\n"))
         t = time.time()
         if option in {1,2}:
            start = int(input("Start: "))
