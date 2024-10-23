@@ -289,8 +289,8 @@ class Heuristic(object):
         distance = prev_distance = 0
         point1 = None
         point2 = None
-        for pointa in multipoint:
-            for pointb in multipoint:
+        for pointa in multipoint.geoms:
+            for pointb in multipoint.geoms:
                 if not pointa.__eq__(pointb):
                     distance = pointa.distance(pointb)
                     if distance >= prev_distance:
