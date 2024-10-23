@@ -89,7 +89,7 @@ class Fishbone(Heuristic.Heuristic):
         #add the lines to a list, for future drawing it
         #self._add_edge(p1,p2)
 
-        for point in slices:
+        for point in slices.geoms:
             #use sym to find perpendicular lines
             sp1 = sym.Point(p1.x,p1.y)
             sp2 = sym.Point(p2.x,p2.y)
